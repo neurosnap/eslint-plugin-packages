@@ -1,4 +1,6 @@
-# eslint module boundary rule
+# eslint-plugin-packages
+
+Manage your monorepo with eslint
 
 ## Rules
 
