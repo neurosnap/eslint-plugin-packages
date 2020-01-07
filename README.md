@@ -1,4 +1,4 @@
-# eslint-plugin-packages
+# eslint-plugin-packages [![Build Status](https://travis-ci.org/neurosnap/eslint-plugin-packages.svg?branch=master)](https://travis-ci.org/neurosnap/eslint-plugin-packages)
 
 Manage your monorepo with eslint
 
