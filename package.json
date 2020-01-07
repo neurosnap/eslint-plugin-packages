@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-module-boundary",
+  "version": "1.0.0",
+  "description": "Prevent imports into local package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./lib/**/*.test.js"
+  },
+  "author": "Eric Bower",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "peerDependencies": {
+    "eslint": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "estree-walk": "^2.2.0"
+  }
+}
