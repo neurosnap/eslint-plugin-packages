@@ -7,6 +7,7 @@ Manage your monorepo with eslint
 `module-boundary`:
 
 - Cannot reach into top-level `@app` packages
+- Cannot import from the same package
 
 ### `module-boundary`
 
@@ -23,4 +24,20 @@ import { actionCreators } from "@app/thread";
 
 ```js
 import { actionCreators } from "@app/thread/message";
+```
+
+### `circular-imports`
+
+#### Valid
+
+```js
+// ./packages/mail/something.js
+import { actionCreators } from "@app/thread";
+```
+
+#### Invalid
+
+```js
+// ./packages/thread/something.js
+import { actionCreators } from "@app/thread";
 ```
